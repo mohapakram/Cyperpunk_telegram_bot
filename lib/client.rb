@@ -14,7 +14,7 @@ class Client < Bot
     Telegram::Bot::Client.run(@token) do |bot|
       @running = true
       @@telegram_instance = bot
-      yield(running)
+      yield(running) if block_given?
       bot.listen do |message|
         respond(message)
       end

@@ -4,12 +4,16 @@ class Bot
   @@telegram_instance = nil
   @user_name = nil
   @chat_id = nil
+  @text = nil
 
+  private
+  
   def respond(message)
     @user_name = message.from.first_name
     @chat_id = message.chat.id
+    @text = message.text 
     
-    case message.text
+    case @text
     when '/start'
       introduce_yourself
     when 'yes'
@@ -22,8 +26,6 @@ class Bot
       explain_yourself
      end
   end
-
-  private
 
   def introduce_yourself
     type "Hello, #{@user_name}. my name is Cyberpunk and like Cyberpunk, the game of course .. would you like to know more about it? Say yes if you do and I will send you random videos about the game :D"
@@ -53,7 +55,7 @@ class Bot
 
   def type(message)
     @@telegram_instance.api.send_message(chat_id: @chat_id, text: message)
-  rescue StandardError => e
-    puts e.message
-  end
+    rescue StandardError => e
+      puts e.message
+    end
 end
