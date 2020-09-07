@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/MethodLength,Style/ClassVars
+# rubocop:disable Layout/LineLength,Style/ClassVars
 require 'telegram/bot'
 
 class Bot
@@ -58,6 +58,6 @@ class Bot
     @@telegram_instance.api.send_message(chat_id: @chat_id, text: message)
   rescue StandardError => e
     puts e.message
-    end
+  end
 end
-# rubocop:enable Metrics/MethodLength,Style/ClassVars
+# rubocop:enable Layout/LineLength,Style/ClassVars
