@@ -1,4 +1,4 @@
-# Ruby Capstone Project - Cyberpunk Telegram Bot
+# Cyberpunk Telegram Bot
 
 > This is a Telegram Bot Project for Ruby learners.
 
@@ -24,6 +24,7 @@ To get this project up and running locally, you must already have ruby and neces
 ### Installation
 
 **Step 1**
+
 Navigate through the local folder where you want to clone the repository and write
 
 ```bash
@@ -33,6 +34,7 @@ git clone https://github.com/mohapakram/Cyperpunk_telegram_bot.git
 It will clone the repo to your local folder
 
 **Step 2**
+
 Navigate to the project folder
 
 ```bash
@@ -40,6 +42,7 @@ cd ruby_slack_bot
 ```
 
 **Step 3**
+
 Install the necesary gems.
 
 ```bash
@@ -60,6 +63,7 @@ TOKEN= your-token-here
 ```
 
 **Step 6**
+
 Start the bot by running
 
 ```bash
