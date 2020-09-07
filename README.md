@@ -81,7 +81,7 @@ And now the bot is running successfully.
 
 ## Talking to the bot from Telegram
 
-Open Telegram and search for `Cyberpunk_bot`.
+Open Telegram and search for `@Cyperpunk_bot`.
 
 - You can type `/start` to start the conversation.
 
