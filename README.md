@@ -1,6 +1,6 @@
 # Cyberpunk Telegram Bot
 
-> This is a Telegram Bot Project A bot to introduce cyberpunk game to people who want to know more about it with videos, gameplay and count down till release!
+> This is a Telegram Bot Project to introduce cyberpunk game to people who want to know more about it with videos, gameplay and count down till release!
 
 This bot shares with you random videos about Cyberpunk game.
 
