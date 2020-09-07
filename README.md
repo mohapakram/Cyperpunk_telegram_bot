@@ -1,6 +1,6 @@
 # Cyberpunk Telegram Bot
 
-> This is a Telegram Bot ProjectA bot to introduce cyberpunk game to people who want to know more about it with videos, gameplay and count down till relase!
+> This is a Telegram Bot Project A bot to introduce cyberpunk game to people who want to know more about it with videos, gameplay and count down till release!
 
 This bot shares with you random videos about Cyberpunk game.
 
@@ -17,7 +17,7 @@ This bot shares with you random videos about Cyberpunk game.
 
 Here is the [video explanation](https://www.loom.com/share/46f67ee7151d49ce8a1b3aedc9c363c7) of this project.
 
-## Prerequisities
+## Prerequisites
 
 To get this project up and running locally, you must already have ruby and necessary gems installed on your computer.
 
@@ -35,7 +35,7 @@ It will clone the repo to your local folder.
 
 **Step 2**
 
-Navigate to the cloned local project folde.
+Navigate to the cloned local project folder.
 
 ```bash
 cd ruby_slack_bot
