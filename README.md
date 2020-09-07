@@ -1,4 +1,4 @@
-# Ruby Capstone Project - Cyberpunk Telegram Bot
+# Cyberpunk Telegram Bot
 
 > This is a Telegram Bot ProjectA bot to introduce cyberpunk game to people who want to know more about it with videos, gameplay and count down till relase!
 
@@ -24,22 +24,25 @@ To get this project up and running locally, you must already have ruby and neces
 ### Installation
 
 **Step 1**
-Navigate through the local folder where you want to clone the repository and write
+
+Navigate through the local folder where you want to clone the repository and run:
 
 ```bash
 git clone https://github.com/mohapakram/Cyperpunk_telegram_bot.git
 ```
 
-It will clone the repo to your local folder
+It will clone the repo to your local folder.
 
 **Step 2**
-Navigate to the project folder
+
+Navigate to the cloned local project folde.
 
 ```bash
 cd ruby_slack_bot
 ```
 
 **Step 3**
+
 Install the necesary gems.
 
 ```bash
@@ -60,6 +63,7 @@ TOKEN= your-token-here
 ```
 
 **Step 6**
+
 Start the bot by running
 
 ```bash
@@ -75,7 +79,7 @@ Bot is running ...
 
 And now the bot is running successfully.
 
-### Talking to the bot from Telegram
+## Talking to the bot from Telegram
 
 Open Telegram and search for `Cyberpunk_bot`.
 
