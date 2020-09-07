@@ -1,6 +1,6 @@
 # Ruby Capstone Project - Cyberpunk Telegram Bot
 
-> This is a Telegram Bot Project for Ruby learners.
+> This is a Telegram Bot ProjectA bot to introduce cyberpunk game to people who want to know more about it with videos, gameplay and count down till relase!
 
 This bot shares with you random videos about Cyberpunk game.
 
@@ -15,7 +15,7 @@ This bot shares with you random videos about Cyberpunk game.
 
 ## Video Explanation
 
-Here is the [video explanation](https://www.loom.com/share/c6738ee94321498bacc9f3c6eb38448e) of this project.
+Here is the [video explanation](https://www.loom.com/share/46f67ee7151d49ce8a1b3aedc9c363c7) of this project.
 
 ## Prerequisities
 
