@@ -25,7 +25,7 @@ class Bot
       say_bye
     else
       explain_yourself
-      end
+    end
     end
 
   def introduce_yourself
