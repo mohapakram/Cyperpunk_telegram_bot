@@ -4,8 +4,8 @@ describe Telegram::Bot::Exceptions::ResponseError do
   subject do
     begin
       described_class.new(response)
-    rescue StandardError => error
-      error
+    rescue StandardError => e
+      e
     end
   end
 

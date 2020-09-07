@@ -1,3 +1,4 @@
+# rubocop:disable Style/ClassVars
 require_relative './bot'
 
 class Client < Bot
@@ -21,4 +22,4 @@ class Client < Bot
     end
   end
 end
-
+# rubocop:enable Style/ClassVars

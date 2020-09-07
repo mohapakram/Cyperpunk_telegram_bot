@@ -1,3 +1,4 @@
+# rubocop:disable Metrics/MethodLength,Style/ClassVars
 require 'telegram/bot'
 
 class Bot
@@ -7,12 +8,12 @@ class Bot
   @text = nil
 
   private
-  
+
   def respond(message)
     @user_name = message.from.first_name
     @chat_id = message.chat.id
-    @text = message.text 
-    
+    @text = message.text
+
     case @text
     when '/start'
       introduce_yourself
@@ -55,7 +56,8 @@ class Bot
 
   def type(message)
     @@telegram_instance.api.send_message(chat_id: @chat_id, text: message)
-    rescue StandardError => e
-      puts e.message
+  rescue StandardError => e
+    puts e.message
     end
 end
+# rubocop:enable Metrics/MethodLength,Style/ClassVars
