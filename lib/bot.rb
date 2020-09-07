@@ -26,7 +26,7 @@ class Bot
     else
       explain_yourself
     end
-    end
+  end
 
   def introduce_yourself
     type "Hello, #{@user_name}. my name is Cyberpunk and like Cyberpunk, the game of course .. would you like to know more about it? Say yes if you do and I will send you random videos about the game :D"
